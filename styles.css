@@ -1,24 +1,26 @@
 * {
-    background-color: beige ;
-    font-style: normal;
-    margin-left: 1.2cm;
-    margin-top: 1cm;
-    margin-right: 1.2cm;
-    margin-bottom: 1cm;
-}
+    color: black;
+    font-style: normal;}
+
+#cuerpo {
+        background: url(https://www.designyourway.net/blog/wp-content/uploads/2018/06/Seamless-Polygon-Background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 1.2cm;
+        margin-bottom: 1cm;
+      }
+
 
 h1{
-    color: brown;
+    color: beige;
 }
-.imagen{
+.imagen {
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 1em;
     margin-right: 1em;
     background-color: beige;
-    align-content: center;
-
-}
+    align-content: center;}
 
 .titulos-sec {
     margin-left: 2cm;
@@ -43,4 +45,8 @@ h1{
     margin-bottom: 3cm;
     margin-left: 3cm;
     margin-right: 3cm;
+}
+
+.mobilenav {
+    background-color: brown;
 }

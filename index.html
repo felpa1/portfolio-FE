@@ -9,39 +9,69 @@
     <title>Felipe López</title>
     <h1><strong>Portfolio</strong> de Felipe Lopez</h1>
     <div>
-        <navbar>
-            <ul>
-                <li><a href="#top">Inicio</a></li>
-                <li><a href="#sobremi">Sobre mí</a></li>
-                <li><a href="#trabajos">Trabajos</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-              </ul>
+        <nav class="navbar navbar-lg navbar-custom navbar-dark fixed-top">  
+           <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2"> </div>
+   
+           <div class="mobilenav"> 
+            <li><a href="#top">Inicio</a></li>
+            <li><a href="#sobremi">Sobre mí</a></li>
+            <li><a href="#trabajos">Trabajos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            </div>
 
-        </navbar>
+            <a href="javascript:void(0)" class="icon"> 
+               
+           </a>
+         </div>
+         </nav>
+        
     </div>
     <p id="intro"> ¡Bienvenidos a mi portfolio! Soy Felipe López, estudiante de Argentina Programa. Estoy aprendiendo a desarrollar front-end estático.</p>
-    <body>
+    <body id="cuerpo">
+
         <container id="sobremi">
             <h3><strong> Sobre mí</strong></h3>
-            <img src="https://scontent.faep8-1.fna.fbcdn.net/v/t39.30808-6/282319634_5395198740502698_2497371044113032386_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGUs9v4fkwDOCF3AIDv78YY9y25rJ7qojT3LbmsnuqiNNogAqhe2tadJx7OiRK2_qatlxj2InafrFUG-YhdnI9V&_nc_ohc=Iz4lKCFt7HsAX_jQVjw&_nc_ht=scontent.faep8-1.fna&oh=00_AT-dgPE6k9UsT-oUqCL9S_gUbOj_PuN08o7e6QI4EoSJUQ&oe=62F0C31B" class ="img-fluid" alt="..." width="300" height="300">
+            <img src="https://scontent.faep8-1.fna.fbcdn.net/v/t39.30808-6/282319634_5395198740502698_2497371044113032386_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGUs9v4fkwDOCF3AIDv78YY9y25rJ7qojT3LbmsnuqiNNogAqhe2tadJx7OiRK2_qatlxj2InafrFUG-YhdnI9V&_nc_ohc=Iz4lKCFt7HsAX_jQVjw&_nc_ht=scontent.faep8-1.fna&oh=00_AT-dgPE6k9UsT-oUqCL9S_gUbOj_PuN08o7e6QI4EoSJUQ&oe=62F0C31B" class ="imagen" alt="..." width="300" height="300">
         </container>  
 
         <container id="trabajos">
             <h3>Trabajos</h3>
-            <img src="https://memegenerator.net/img/images/5824874.jpg" class ="img-fluid" alt="meme trabajos" width="300" height="300">
+            <img src="https://memegenerator.net/img/images/5824874.jpg" class ="imagen" alt="meme trabajos" width="300" height="300">
             <p> Acá deberían estar mis trabajos, <strong> si TAN SOLO TUVIERA UNO </strong> </p>     
         </container>
 
         <container id="contacto">
             <h3>Contacto</h3>
-            <a href="instagram.com/felilopez1">instagram</a>
+            <ul class="list-inline mb-0 mt-2">
+                <li class="list-inline-item mr-3">
+                  <a href="https://www.facebook.com/Felpakpo" class="text-white" target="_blank">
+                    <i class="fab fa-facebook fa-lg fa-fw" aria-hidden="true">facebook</i>
+                  </a>
+                </li>
+                <li class="list-inline-item mr-3">
+                  <a href="https://twitter.com/felilopez01" class="text-white" target="_blank">
+                    <i class="fab fa-twitter-square fa-lg fa-fw" aria-hidden="true">twitter</i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://instagram.com/felilopez1" class="text-white" target="_blank">
+                    <i class="fab fa-instagram fa-lg fa-fw" aria-hidden="true">instagram</i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="felipe.lopez.2001@outlook.com" class="text-white" target="_blank">
+                      <i class="fab fa-mail fa-lg fa-fw" aria-hidden="true">e-mail</i>
+                    </a>
+                  </li>
+                  
+            </ul>
         </container>
         
 
         <div>
-            <h5>Are you registered?</h5>
-            <button onclick="location.href='login.html'"> Log In</button>
-            <button onclick="location.href='registro.html'"> Sign In </button>
+            <h5>¿Estás registradx?</h5>
+            <button onclick="location.href='login.html'">Ingresar</button>
+            <button onclick="location.href='registro.html'">Registrarme</button>
         </div>
     </body>
 </html>
