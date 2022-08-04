@@ -1,0 +1,46 @@
+* {
+    background-color: beige ;
+    font-style: normal;
+    margin-left: 1.2cm;
+    margin-top: 1cm;
+    margin-right: 1.2cm;
+    margin-bottom: 1cm;
+}
+
+h1{
+    color: brown;
+}
+.imagen{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    background-color: beige;
+    align-content: center;
+
+}
+
+.titulos-sec {
+    margin-left: 2cm;
+    margin-top: 2cm;
+    text-align: center;
+}
+
+#intro {
+    font-style: italic;
+    margin: auto;
+}
+
+#formulario1 {
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
+
+#formulario2 {
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+    margin-left: 3cm;
+    margin-right: 3cm;
+}
