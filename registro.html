@@ -7,20 +7,22 @@
     </head>
     <body id="cuerpo">
 
-        <button onclick="location.href='index.html'">Volver a Inicio</button>
+        <nav class="navbar navbar-lg navbar-custom navbar-dark fixed-top" type="button" onclick="location.href='index.html'">
+          <a class="navbar-brand text-uppercase px-3">Volver a Inicio</a>
+          <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2"> </div>
+      </nav>
 
-
-        <div>
-            <h2 class="titulos-sec">Regístrate</h2>
-        </div>
+      <div>
+        <h2 class="titulos-sec">Regístrate</h2>
+      </div> 
         
-        <form id="formulario2">
+      <form id="formulario2">
 
             <div class="mb-3">
         
-                <label for="exampleInputName" class="form-label">Nombre</a></label>
+                <label for="exampleInputName"  class="form-label">Nombre</label>
           
-                <input type="name" class="form-control" id="exampleInputName">
+                <input type="name" class="form-control" id="nombreR">
           
               </div>
           
@@ -29,7 +31,7 @@
         
               <label for="idE" class="form-label">Correo eléctronico</label>
         
-              <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
+              <input type="email" class="form-control" id="emailR" aria-describedby ="idEH">
         
             </div>
         
@@ -37,23 +39,23 @@
         
               <label for="exampleInputPassword1" class="form-label">Contraseña</a></label>
         
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <input type="password" class="form-control" id="passwordR">
         
             </div>
             <div class="mb-3">
         
                 <label for="exampleInputPassword2" class="form-label">Repetir contraseña</a></label>
           
-                <input type="password" class="form-control" id="exampleInputPassword2">
+                <input type="password" class="form-control" id="password2R">
           
               </div>
           
         
             <div class="mb-3 form-check">
         
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <input type="checkbox" class="form-check-input" id="terminosr">
         
-              <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+              <label class="form-check-label" for="exampleCheck1">Acepto <a href="">términos y condiciones</a> </label>
         
             </div>
             <div class="mb-3 form-check">
@@ -64,8 +66,11 @@
           
               </div>
         
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="submit" id="submitR" onclick="return enviarFormR();" class="btn btn-primary" value="enviar">Enviar</button>
         
         </form>
+
+        <script src='validar-form.js'></script>
+
     </body>
 </html>

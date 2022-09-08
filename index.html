@@ -9,21 +9,41 @@
     <title>Felipe López - Portfolio</title>
     <h1><strong>Portfolio</strong> de Felipe Lopez</h1>
     <div>
+
+        <nav class="navbar navbar-lg navbar-custom navbar-dark fixed-top">
+            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2"> </div>
+            <ul>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Menu</a>
+            
+            <div class="dropdown-content">
+                <a href="#top">Inicio</a>
+                <a href="#sobremi">Sobre mí</a>
+                <a href="#trabajos">Trabajos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            </li>
+            </ul>
+            <a href="javascript:void(0)" class="icon"> 
+            </nav>
+
+
+<!---
         <nav class="navbar navbar-lg navbar-custom navbar-dark fixed-top">  
            <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2"> </div>
    
            <div class="mobilenav"> 
-            <li><a href="#top">Inicio</a></li>
-            <li><a href="#sobremi">Sobre mí</a></li>
-            <li><a href="#trabajos">Trabajos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <a href="#top">Inicio</a>
+            <a href="#sobremi">Sobre mí</a>
+            <a href="#trabajos">Trabajos</a>
+            <a href="#contacto">Contacto</a>
             </div>
 
             <a href="javascript:void(0)" class="icon"> 
                
            </a>
          </div>
-         </nav>
+         </nav> -->
         
     </div>
     <p id="intro"> ¡Bienvenidos a mi portfolio! Soy Felipe López, estudiante de Argentina Programa. Estoy aprendiendo a desarrollar front-end estático.</p>
@@ -32,7 +52,7 @@
         <container id="sobremi">
             <h3><strong> Sobre mí</strong></h3>
             <div class="imagen">
-                <img src="https://scontent.faep8-1.fna.fbcdn.net/v/t39.30808-6/282319634_5395198740502698_2497371044113032386_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGUs9v4fkwDOCF3AIDv78YY9y25rJ7qojT3LbmsnuqiNNogAqhe2tadJx7OiRK2_qatlxj2InafrFUG-YhdnI9V&_nc_ohc=Iz4lKCFt7HsAX_jQVjw&_nc_ht=scontent.faep8-1.fna&oh=00_AT-dgPE6k9UsT-oUqCL9S_gUbOj_PuN08o7e6QI4EoSJUQ&oe=62F0C31B" class ="imagen" alt="..." width="300" height="300">
+                <img src="https://scontent.faep35-1.fna.fbcdn.net/v/t39.30808-6/282319634_5395198740502698_2497371044113032386_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGUs9v4fkwDOCF3AIDv78YY9y25rJ7qojT3LbmsnuqiNNogAqhe2tadJx7OiRK2_qatlxj2InafrFUG-YhdnI9V&_nc_ohc=umaSVa4LNkQAX_Jabtf&_nc_ht=scontent.faep35-1.fna&oh=00_AT_Msw0OtRcD-3CXRGIPT1c7FNfsrjQtkqvbW32C6JRpEA&oe=630A785B" class ="imagen" alt="..." width="300" height="300">
             </div>
                 <p class="desc-1"> He desarrollado páginas web para importantes clientes de Latinoamérica y del exterior, esto me permitió adquirir una gran experiencia como programador web.
                 Luego me he despertado y he querido hacerlo en la vida real, por eso estoy estudiando para ello. </p>
@@ -58,8 +78,10 @@
 
         <div>
             <h5>¿Estás registradx?</h5>
-            <button type="button" class="btn btn-info" onclick="location.href='login.html'">Ingresar</button>
-            <button type="button" class="btn btn-info" onclick="location.href='registro.html'">Registrarme</button>
+            <button type="button" class="btn btn-info" id="login1" onclick="location.href='login.html'">Ingresar</button>
+            <button type="button" class="btn btn-info" id="register1" onclick="location.href='registro.html'">Registrarme</button>
         </div>
+
+                
     </body>
 </html>

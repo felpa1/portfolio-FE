@@ -3,7 +3,7 @@
     font-style: normal;}
 
 #cuerpo {
-        background: url(https://www.designyourway.net/blog/wp-content/uploads/2018/06/Seamless-Polygon-Background.jpg);
+        background: url(https://www.energyexemplar.com/hubfs/news%20backgrounds.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         margin-left: 1.2cm;
@@ -56,3 +56,68 @@ h3 {
     background-color: brown;
 }
 
+.imagen {
+    display: grid;
+    place-items: center;
+}
+
+
+li {
+    float: right;
+    background-color: blue;
+    
+}
+
+a {
+    display: block;
+    padding: 8px;
+/*    background-color: #251a44;
+  */ }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: brown;
+  }
+
+
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(132, 0, 255, 0.205);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(140, 52, 234);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(98, 132, 244);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
